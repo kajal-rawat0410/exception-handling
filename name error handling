@@ -1,0 +1,5 @@
+a=input("enter:")
+try:
+    print(b)
+except NameError:
+    print("name error: some variable not define")
