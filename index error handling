@@ -1,0 +1,6 @@
+a=eval(input("enter string/list/dictionary :"))
+n=int(input("enter index number:"))
+try:
+    print(a[n])
+except IndexError:
+    print("index error: out of range")
