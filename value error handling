@@ -1,0 +1,6 @@
+a=input("enter string :")
+try:
+    value=int(a)
+    print(value)
+except ValueError:
+    print("value error: inappropriate value")
