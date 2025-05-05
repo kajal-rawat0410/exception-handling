@@ -1,0 +1,16 @@
+try:
+        result = a / b
+        print(c)
+        print(result)
+
+except ZeroDivisionError:
+        print("Error: number cannot be Divided by zero")
+
+except TypeError:
+        print("Error: Invalid data types. Please provide numbers")
+
+except ValueError:
+        print("Error: Invalid value provided")
+
+except NameError:
+       print("name error")
