@@ -1,0 +1,6 @@
+try:
+    with open('file1.txt', 'r') as file:
+        a= file.read()
+    print(a)
+except FileNotFoundError:
+    print("Error: The file was not found.")
