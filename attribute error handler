@@ -1,0 +1,5 @@
+try:
+    a=int(input("enter number"))
+    a.append(4)
+except AttributeError:
+    print("There is no such attribute")
