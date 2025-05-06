@@ -1,8 +1,0 @@
-import re
-d=input("enter string:")
-p="python"
-res=re.match(p,d)
-if res:
-    print("starts with python")
-else:
-    print("doesn't starts with python")
