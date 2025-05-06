@@ -1,16 +1,16 @@
-l = []
+lst = []
 def append1(x):
-    l.append(x)
-    return l
+    lst.append(x)
+    return lst
 def extend1(l):
-    l.extend(l)
-    return l
+    lst.extend(l)
+    return lst
 def pop():
-    if l:
-        return l.pop()
+    if lst:
+        return lst.pop()
     return "List is empty"
 def remove1(x):
-    if x in l:
-        l.remove(x)
-        return l
+    if x in lst:
+        lst.remove(x)
+        return lst
     return f"{x} not found"
